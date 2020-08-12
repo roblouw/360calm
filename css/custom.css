@@ -1,0 +1,120 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+    font-family: "Rubik", Helvetica, Arial, sans-serif;
+    color: #333; }
+.button {
+  border-radius: 100px;
+}
+.button.button-primary {
+  color: #FFF;
+  background-color: #0047B3;
+  border-color: #0047B3; 
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #FFF;
+  background-color: #0065FF;
+  border-color: #0065FF; 
+}
+a {
+    color: #0047B3; }
+  a:hover {
+    color: #0065FF; }
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 3rem;
+}
+
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+    background-image: url('../images/element-cloud.png');
+    background-size: cover;
+    color: #332100;
+}
+.hero img {
+    max-width: 20%;
+    margin-bottom: 1.5rem;
+}
+.hero h1 {
+    color: #0047B3;
+}
+.hero-link {
+    padding: 1.5rem;
+}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+    background-color: #FFF;
+    color: #332100;
+    border-top: 1px solid rgba(255, 170, 0, 0.2);
+}
+
+
+
+/* Responsive
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0;
+  }
+  .hero {
+    padding-bottom: 12rem;
+    text-align: center;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .section {
+    padding: 14rem 0;
+  }
+  .hero {
+    padding: 8rem 0;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer {
+    padding: 3rem 0;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 0;
+  }
+  .hero {
+    padding: 8rem 0;
+  }
+  .hero-heading {
+    font-size: 3.0rem;
+  }
+  .footer {
+    padding: 3rem 0;
+  }
+}
